@@ -12,6 +12,7 @@ class MoviesList extends React.Component {
     }
 
     componentDidMount() {
+        //api call added
         fetch("https://backend-ygzsyibiue.now.sh/api/v1/movies/")
             .then(res => res.json())
             .then(
